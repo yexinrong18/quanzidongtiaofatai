@@ -12,10 +12,19 @@
 		<Item Name="Motor Control State.ctl" Type="VI" URL="../Motor Control State.ctl"/>
 		<Item Name="Hardware Configuration.ctl" Type="VI" URL="../Hardware Configuration.ctl"/>
 	</Item>
+	<Item Name="Motor Logic" Type="Folder">
+		<Item Name="反转判断1.vi" Type="VI" URL="../Motor Logic/反转判断1.vi"/>
+		<Item Name="反转判断条件1.ctl" Type="VI" URL="../Motor Logic/反转判断条件1.ctl"/>
+		<Item Name="停止判断1.vi" Type="VI" URL="../Motor Logic/停止判断1.vi"/>
+		<Item Name="停止判断条件1.ctl" Type="VI" URL="../Motor Logic/停止判断条件1.ctl"/>
+	</Item>
 	<Item Name="Motor Control Message Loop.vi" Type="VI" URL="../Motor Control Message Loop.vi"/>
 	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
 	<Item Name="Configure Hardware.vi" Type="VI" URL="../Configure Hardware.vi"/>
 	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Error Handler - Motor Control Message Loop.vi" Type="VI" URL="../Error Handler - Motor Control Message Loop.vi"/>
+	<Item Name="Turn.vi" Type="VI" URL="../Turn.vi"/>
+	<Item Name="Set direction.vi" Type="VI" URL="../Set direction.vi"/>
+	<Item Name="Move.vi" Type="VI" URL="../Move.vi"/>
 </Library>
