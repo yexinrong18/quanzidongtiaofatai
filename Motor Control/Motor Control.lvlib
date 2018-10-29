@@ -17,6 +17,7 @@
 		<Item Name="反转判断条件1.ctl" Type="VI" URL="../Motor Logic/反转判断条件1.ctl"/>
 		<Item Name="停止判断1.vi" Type="VI" URL="../Motor Logic/停止判断1.vi"/>
 		<Item Name="停止判断条件1.ctl" Type="VI" URL="../Motor Logic/停止判断条件1.ctl"/>
+		<Item Name="电机转动逻辑1.ctl" Type="VI" URL="../Motor Logic/电机转动逻辑1.ctl"/>
 	</Item>
 	<Item Name="Motor Control Message Loop.vi" Type="VI" URL="../Motor Control Message Loop.vi"/>
 	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>

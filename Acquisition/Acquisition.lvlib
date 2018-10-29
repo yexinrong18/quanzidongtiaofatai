@@ -18,4 +18,5 @@
 	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
+	<Item Name="AcquirePlotTime.vi" Type="VI" URL="../AcquirePlotTime.vi"/>
 </Library>
