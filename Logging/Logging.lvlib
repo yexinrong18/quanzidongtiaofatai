@@ -44,7 +44,6 @@
 			<Item Name="退回 最大值.vi" Type="VI" URL="../Calculate/退回/退回 最大值.vi"/>
 			<Item Name="退回.vi" Type="VI" URL="../Calculate/退回/退回.vi"/>
 		</Item>
-		<Item Name="计算类型.ctl" Type="VI" URL="../Calculate/计算类型.ctl"/>
 		<Item Name="计算类型执行.vi" Type="VI" URL="../Calculate/计算类型执行.vi"/>
 	</Item>
 	<Item Name="support" Type="Folder">

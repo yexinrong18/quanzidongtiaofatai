@@ -2,7 +2,7 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>15.0.1</Version>
 <Cluster>
-<Name>Settings in</Name>
+<Name>Settings</Name>
 <NumElts>6</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
@@ -161,7 +161,7 @@
 </Boolean>
 <DBL>
 <Name>ÆµÂÊ</Name>
-<Val>1000.00000000000000</Val>
+<Val>200.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>

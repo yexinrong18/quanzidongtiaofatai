@@ -31,8 +31,13 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 			<Item Name="UI State.ctl" Type="VI" URL="../controls/UI State.ctl"/>
+			<Item Name="ValueUI Data.ctl" Type="VI" URL="../controls/ValueUI Data.ctl"/>
 		</Item>
 		<Item Name="Measure" Type="Folder">
+			<Item Name="Thread" Type="Folder">
+				<Item Name="ThreadUI.vi" Type="VI" URL="../Measure/Thread/ThreadUI.vi"/>
+				<Item Name="ThreadPlot.vi" Type="VI" URL="../Measure/Thread/ThreadPlot.vi"/>
+			</Item>
 			<Item Name="One Chart Temple.vi" Type="VI" URL="../Measure/One Chart Temple.vi"/>
 			<Item Name="Three Chart Temple.vi" Type="VI" URL="../Measure/Three Chart Temple.vi"/>
 			<Item Name="Two Chart Temple.vi" Type="VI" URL="../Measure/Two Chart Temple.vi"/>
@@ -41,6 +46,7 @@
 			<Item Name="功能测试.vi" Type="VI" URL="../Measure/功能测试.vi"/>
 			<Item Name="力特性测试.vi" Type="VI" URL="../Measure/力特性测试.vi"/>
 			<Item Name="力特性测试 自动对中测试.vi" Type="VI" URL="../Measure/力特性测试 自动对中测试.vi"/>
+			<Item Name="Measure Type.ctl" Type="VI" URL="../Measure/Measure Type.ctl"/>
 		</Item>
 		<Item Name="Acquisition.lvlib" Type="Library" URL="../Acquisition/Acquisition.lvlib"/>
 		<Item Name="Logging.lvlib" Type="Library" URL="../Logging/Logging.lvlib"/>
