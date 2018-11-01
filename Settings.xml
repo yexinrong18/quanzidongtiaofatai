@@ -2,7 +2,7 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>15.0.1</Version>
 <Cluster>
-<Name>Settings</Name>
+<Name>Settings in</Name>
 <NumElts>6</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
@@ -120,27 +120,27 @@
 <Dimsize>6</Dimsize>
 <DBL>
 <Name>数值</Name>
-<Val>10.55515962894770</Val>
+<Val>-4.39907759872722</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>10.55515962894770</Val>
+<Val>-4.34644726185364</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>10.55515962894770</Val>
+<Val>-4.32771338974124</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>10.55515962894770</Val>
+<Val>-4.30550551828764</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>10.55515962894770</Val>
+<Val>-4.24371973842382</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>10.55515962894770</Val>
+<Val>-4.18222622776758</Val>
 </DBL>
 </Array>
 </Cluster>
@@ -149,11 +149,11 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>counter</Name>
-<Val>Dev1/ctr1</Val>
+<Val>Dev1/ctr0</Val>
 </DAQChannel>
 <DAQChannel>
 <Name>方向端口</Name>
-<Val>Dev1/port0/line0</Val>
+<Val></Val>
 </DAQChannel>
 <Boolean>
 <Name>当前方向</Name>
@@ -161,7 +161,7 @@
 </Boolean>
 <DBL>
 <Name>频率</Name>
-<Val>200.00000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
