@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>15.0.1</Version>
+<Version>15.0</Version>
 <Cluster>
 <Name>Settings in</Name>
 <NumElts>9</NumElts>
@@ -108,7 +108,7 @@
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>1.00000000000000</Val>
+<Val>277.77780000000001</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
@@ -120,27 +120,27 @@
 <Dimsize>6</Dimsize>
 <DBL>
 <Name>数值</Name>
-<Val>-0.10852936815587</Val>
+<Val>4.15632141047548E-2</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>0.19672534792966</Val>
+<Val>3.61930135419795E-3</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>-0.13296572432100</Val>
+<Val>9.91085625742300E-3</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>-5.27284923603404E-2</Val>
+<Val>7.88260805567370E-2</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>-6.06794980676214E-2</Val>
+<Val>0.21964013464006</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>-3.70182639464064E-2</Val>
+<Val>0.24727107913499</Val>
 </DBL>
 </Array>
 </Cluster>
@@ -292,7 +292,7 @@
 <NumElts>5</NumElts>
 <I32>
 <Name>传感器序号</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I32>
 <EW>
 <Name>条件</Name>
@@ -303,7 +303,7 @@
 </EW>
 <DBL>
 <Name>值</Name>
-<Val>7.00000000000000</Val>
+<Val>6.00000000000000</Val>
 </DBL>
 <I32>
 <Name>条件判断时间间隔</Name>
@@ -311,7 +311,7 @@
 </I32>
 <I32>
 <Name>反转等待时长</Name>
-<Val>1</Val>
+<Val>5000</Val>
 </I32>
 </Cluster>
 <Cluster>
@@ -356,19 +356,19 @@
 <Choice>小于</Choice>
 <Choice>大于</Choice>
 <Choice>等于</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <DBL>
 <Name>值</Name>
-<Val>0.00000000000000</Val>
+<Val>8.00000000000000</Val>
 </DBL>
 <I32>
 <Name>条件判断时间间隔</Name>
-<Val>0</Val>
+<Val>3000</Val>
 </I32>
 <I32>
 <Name>反转等待时长</Name>
-<Val>0</Val>
+<Val>10000</Val>
 </I32>
 </Cluster>
 <Cluster>
@@ -386,7 +386,7 @@
 </EW>
 <I32>
 <Name>反转次数</Name>
-<Val>0</Val>
+<Val>2</Val>
 </I32>
 <DBL>
 <Name>停止角度</Name>
@@ -394,7 +394,7 @@
 </DBL>
 <DBL>
 <Name>停止角度误差范围</Name>
-<Val>0.00000000000000</Val>
+<Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
@@ -427,11 +427,11 @@
 <NumElts>4</NumElts>
 <U32>
 <Name>变量类型</Name>
-<Val>2</Val>
+<Val>0</Val>
 </U32>
 <String>
 <Name>PLC地址</Name>
-<Val>0</Val>
+<Val>30</Val>
 </String>
 <U32>
 <Name>16位/32位</Name>
@@ -439,7 +439,7 @@
 </U32>
 <String>
 <Name>写入数据(写入时有效)</Name>
-<Val></Val>
+<Val>1</Val>
 </String>
 </Cluster>
 <Cluster>
@@ -447,11 +447,11 @@
 <NumElts>4</NumElts>
 <U32>
 <Name>变量类型</Name>
-<Val>2</Val>
+<Val>0</Val>
 </U32>
 <String>
 <Name>PLC地址</Name>
-<Val>0</Val>
+<Val>31</Val>
 </String>
 <U32>
 <Name>16位/32位</Name>
@@ -459,7 +459,7 @@
 </U32>
 <String>
 <Name>写入数据(写入时有效)</Name>
-<Val></Val>
+<Val>1</Val>
 </String>
 </Cluster>
 <Cluster>
