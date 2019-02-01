@@ -15,12 +15,27 @@
 		<Item Name="动作设置.ctl" Type="VI" URL="../动作设置.ctl"/>
 		<Item Name="其他动作设置 .ctl" Type="VI" URL="../其他动作设置 .ctl"/>
 	</Item>
-	<Item Name="Motor Logic" Type="Folder">
-		<Item Name="反转判断1.vi" Type="VI" URL="../Motor Logic/反转判断1.vi"/>
-		<Item Name="反转判断条件1.ctl" Type="VI" URL="../Motor Logic/反转判断条件1.ctl"/>
-		<Item Name="停止判断1.vi" Type="VI" URL="../Motor Logic/停止判断1.vi"/>
-		<Item Name="停止判断条件1.ctl" Type="VI" URL="../Motor Logic/停止判断条件1.ctl"/>
-		<Item Name="电机转动逻辑1.ctl" Type="VI" URL="../Motor Logic/电机转动逻辑1.ctl"/>
+	<Item Name="电机控制" Type="Folder">
+		<Item Name="Motor Logic" Type="Folder">
+			<Item Name="反转判断1.vi" Type="VI" URL="../电机控制/Motor Logic/反转判断1.vi"/>
+			<Item Name="反转判断条件1.ctl" Type="VI" URL="../电机控制/Motor Logic/反转判断条件1.ctl"/>
+			<Item Name="停止判断1.vi" Type="VI" URL="../电机控制/Motor Logic/停止判断1.vi"/>
+			<Item Name="停止判断条件1.ctl" Type="VI" URL="../电机控制/Motor Logic/停止判断条件1.ctl"/>
+			<Item Name="电机转动逻辑1.ctl" Type="VI" URL="../电机控制/Motor Logic/电机转动逻辑1.ctl"/>
+			<Item Name="所有测试电机转动逻辑.ctl" Type="VI" URL="../电机控制/Motor Logic/所有测试电机转动逻辑.ctl"/>
+		</Item>
+		<Item Name="电机控制设置.ctl" Type="VI" URL="../电机控制/电机控制设置.ctl"/>
+		<Item Name="连续转动开始.vi" Type="VI" URL="../电机控制/连续转动开始.vi"/>
+		<Item Name="连续转动停止.vi" Type="VI" URL="../电机控制/连续转动停止.vi"/>
+		<Item Name="有限步数转动.vi" Type="VI" URL="../电机控制/有限步数转动.vi"/>
+		<Item Name="设置转动方向.vi" Type="VI" URL="../电机控制/设置转动方向.vi"/>
+	</Item>
+	<Item Name="PLC控制" Type="Folder">
+		<Item Name="PLC设置.ctl" Type="VI" URL="../PLC控制/PLC设置.ctl"/>
+		<Item Name="PLC控制写入.vi" Type="VI" URL="../PLC控制/PLC控制写入.vi"/>
+		<Item Name="PLC设备连接.vi" Type="VI" URL="../PLC控制/PLC设备连接.vi"/>
+		<Item Name="PLC控制指令.ctl" Type="VI" URL="../PLC控制/PLC控制指令.ctl"/>
+		<Item Name="PLC控制读取.vi" Type="VI" URL="../PLC控制/PLC控制读取.vi"/>
 	</Item>
 	<Item Name="Action Message Loop.vi" Type="VI" URL="../Action Message Loop.vi"/>
 	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
