@@ -19,6 +19,8 @@
 		<Item Name="Motor Logic" Type="Folder">
 			<Item Name="反转判断1.vi" Type="VI" URL="../电机控制/Motor Logic/反转判断1.vi"/>
 			<Item Name="反转判断条件1.ctl" Type="VI" URL="../电机控制/Motor Logic/反转判断条件1.ctl"/>
+			<Item Name="反转判断2.vi" Type="VI" URL="../电机控制/Motor Logic/反转判断2.vi"/>
+			<Item Name="反转判断条件2.ctl" Type="VI" URL="../电机控制/Motor Logic/反转判断条件2.ctl"/>
 			<Item Name="停止判断1.vi" Type="VI" URL="../电机控制/Motor Logic/停止判断1.vi"/>
 			<Item Name="停止判断条件1.ctl" Type="VI" URL="../电机控制/Motor Logic/停止判断条件1.ctl"/>
 			<Item Name="电机转动逻辑1.ctl" Type="VI" URL="../电机控制/Motor Logic/电机转动逻辑1.ctl"/>
@@ -36,6 +38,7 @@
 		<Item Name="PLC设备连接.vi" Type="VI" URL="../PLC控制/PLC设备连接.vi"/>
 		<Item Name="PLC控制指令.ctl" Type="VI" URL="../PLC控制/PLC控制指令.ctl"/>
 		<Item Name="PLC控制读取.vi" Type="VI" URL="../PLC控制/PLC控制读取.vi"/>
+		<Item Name="PLC设备关闭.vi" Type="VI" URL="../PLC控制/PLC设备关闭.vi"/>
 	</Item>
 	<Item Name="Action Message Loop.vi" Type="VI" URL="../Action Message Loop.vi"/>
 	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
