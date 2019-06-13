@@ -8,8 +8,11 @@
 
 </Property>
 	<Item Name="Calculate" Type="Folder">
-		<Item Name="调阀对中" Type="Folder">
-			<Item Name="调阀对中 对中偏振角度.vi" Type="VI" URL="../Calculate/调阀对中/调阀对中 对中偏振角度.vi"/>
+		<Item Name="对中" Type="Folder">
+			<Item Name="对中.vi" Type="VI" URL="../Calculate/对中/对中.vi"/>
+		</Item>
+		<Item Name="分中" Type="Folder">
+			<Item Name="分中.vi" Type="VI" URL="../Calculate/分中/分中.vi"/>
 		</Item>
 		<Item Name="功能" Type="Folder">
 			<Item Name="功能试验 扭矩变化峰值.vi" Type="VI" URL="../Calculate/功能/功能试验 扭矩变化峰值.vi"/>
