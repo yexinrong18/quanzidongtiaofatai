@@ -8,8 +8,13 @@
 
 </Property>
 	<Item Name="Calculate" Type="Folder">
-		<Item Name="调阀对中" Type="Folder">
-			<Item Name="调阀对中 对中偏振角度.vi" Type="VI" URL="../Calculate/调阀对中/调阀对中 对中偏振角度.vi"/>
+		<Item Name="对中" Type="Folder">
+			<Item Name="对中 分离数据.vi" Type="VI" URL="../Calculate/对中/对中 分离数据.vi"/>
+			<Item Name="对中 偏差角度.vi" Type="VI" URL="../Calculate/对中/对中 偏差角度.vi"/>
+			<Item Name="对中.vi" Type="VI" URL="../Calculate/对中/对中.vi"/>
+		</Item>
+		<Item Name="分中" Type="Folder">
+			<Item Name="分中.vi" Type="VI" URL="../Calculate/分中/分中.vi"/>
 		</Item>
 		<Item Name="功能" Type="Folder">
 			<Item Name="功能试验 扭矩变化峰值.vi" Type="VI" URL="../Calculate/功能/功能试验 扭矩变化峰值.vi"/>
@@ -29,6 +34,9 @@
 			<Item Name="力特性 推力对应扭矩.vi" Type="VI" URL="../Calculate/力特性/力特性 推力对应扭矩.vi"/>
 			<Item Name="力特性 油压对应扭矩.vi" Type="VI" URL="../Calculate/力特性/力特性 油压对应扭矩.vi"/>
 			<Item Name="力特性.vi" Type="VI" URL="../Calculate/力特性/力特性.vi"/>
+		</Item>
+		<Item Name="内泄漏" Type="Folder">
+			<Item Name="内泄漏.vi" Type="VI" URL="../Calculate/内泄漏/内泄漏.vi"/>
 		</Item>
 		<Item Name="啮合" Type="Folder">
 			<Item Name="啮合 分离正反转.vi" Type="VI" URL="../Calculate/啮合/啮合 分离正反转.vi"/>

@@ -5,8 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="support" Type="Folder">
-		<Item Name="PLC设置.ctl" Type="VI" URL="../PLC设置.ctl"/>
-		<Item Name="PLC指令.ctl" Type="VI" URL="../PLC指令.ctl"/>
 		<Item Name="PLC动作指令集.ctl" Type="VI" URL="../PLC动作指令集.ctl"/>
 	</Item>
 	<Item Name="ASCI TO HEX.vi" Type="VI" URL="../ASCI TO HEX.vi"/>
@@ -16,5 +14,4 @@
 	<Item Name="串口通讯模块.vi" Type="VI" URL="../串口通讯模块.vi"/>
 	<Item Name="读取.vi" Type="VI" URL="../读取.vi"/>
 	<Item Name="校验码计算.vi" Type="VI" URL="../校验码计算.vi"/>
-	<Item Name="写入.vi" Type="VI" URL="../写入.vi"/>
 </Library>
