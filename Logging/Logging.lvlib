@@ -9,6 +9,8 @@
 </Property>
 	<Item Name="Calculate" Type="Folder">
 		<Item Name="对中" Type="Folder">
+			<Item Name="对中 分离数据.vi" Type="VI" URL="../Calculate/对中/对中 分离数据.vi"/>
+			<Item Name="对中 偏差角度.vi" Type="VI" URL="../Calculate/对中/对中 偏差角度.vi"/>
 			<Item Name="对中.vi" Type="VI" URL="../Calculate/对中/对中.vi"/>
 		</Item>
 		<Item Name="分中" Type="Folder">
