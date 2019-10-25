@@ -116,7 +116,7 @@
 <NumElts>2</NumElts>
 <I32>
 <Name>ActLogicalStationNumber</Name>
-<Val>1</Val>
+<Val>9600</Val>
 </I32>
 <Refnum>
 <Name>ActUtlType</Name>
@@ -133,7 +133,7 @@
 <NumElts>2</NumElts>
 <Cluster>
 <Name>自动跳法测试动作</Name>
-<NumElts>15</NumElts>
+<NumElts>16</NumElts>
 <Cluster>
 <Name>夹紧阀总</Name>
 <NumElts>4</NumElts>
@@ -151,7 +151,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -171,7 +171,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -191,7 +191,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -211,7 +211,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -231,7 +231,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -251,7 +251,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -271,7 +271,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -291,7 +291,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -311,7 +311,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -331,7 +331,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -351,7 +351,7 @@
 </I32>
 <I16>
 <Name>写入数据(写入时有效)</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I16>
 </Cluster>
 <Cluster>
@@ -399,7 +399,7 @@
 <NumElts>4</NumElts>
 <U32>
 <Name>变量类型</Name>
-<Val>2</Val>
+<Val>0</Val>
 </U32>
 <I32>
 <Name>PLC地址</Name>
@@ -424,6 +424,26 @@
 <I32>
 <Name>PLC地址</Name>
 <Val>53</Val>
+</I32>
+<I32>
+<Name>size</Name>
+<Val>1</Val>
+</I32>
+<I16>
+<Name>写入数据(写入时有效)</Name>
+<Val>0</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>卡盘松紧</Name>
+<NumElts>4</NumElts>
+<U32>
+<Name>变量类型</Name>
+<Val>2</Val>
+</U32>
+<I32>
+<Name>PLC地址</Name>
+<Val>255</Val>
 </I32>
 <I32>
 <Name>size</Name>
