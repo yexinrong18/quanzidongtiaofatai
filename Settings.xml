@@ -12,7 +12,7 @@
 <NumElts>7</NumElts>
 <DAQChannel>
 <Name>DAQmx Channel</Name>
-<Val></Val>
+<Val>Dev1/ai0:5</Val>
 </DAQChannel>
 <DBL>
 <Name>Max Input</Name>
@@ -28,7 +28,7 @@
 </DBL>
 <I32>
 <Name>Sample Number</Name>
-<Val>10</Val>
+<Val>200</Val>
 </I32>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -38,7 +38,7 @@
 </Refnum>
 <DAQChannel>
 <Name>device in</Name>
-<Val></Val>
+<Val>Dev1</Val>
 </DAQChannel>
 </Cluster>
 <Cluster>
@@ -70,7 +70,7 @@
 </DAQChannel>
 <DAQChannel>
 <Name>B相端口</Name>
-<Val>/Dev1/PFI8</Val>
+<Val>/Dev1/PFI10</Val>
 </DAQChannel>
 <Refnum>
 <Name>task in</Name>
@@ -92,7 +92,7 @@
 <Dimsize>6</Dimsize>
 <DBL>
 <Name>数值</Name>
-<Val>2.50000000000000</Val>
+<Val>4.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
@@ -120,27 +120,27 @@
 <Dimsize>6</Dimsize>
 <DBL>
 <Name>数值</Name>
-<Val>-0.10850000000000</Val>
+<Val>-0.26570000000000</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>0.19672000000000</Val>
+<Val>5.68027000000000E-3</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>-0.13290000000000</Val>
+<Val>-0.17770700000000</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>-5.27000000000000E-2</Val>
+<Val>-0.18008000000000</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>-6.06000000000000E-2</Val>
+<Val>-0.22925900000000</Val>
 </DBL>
 <DBL>
 <Name>数值</Name>
-<Val>-3.70000000000000E-2</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Array>
 <Boolean>
@@ -156,7 +156,7 @@
 <NumElts>2</NumElts>
 <I32>
 <Name>ActLogicalStationNumber</Name>
-<Val>9600</Val>
+<Val>1</Val>
 </I32>
 <Refnum>
 <Name>ActUtlType</Name>
@@ -605,11 +605,11 @@
 <NumElts>5</NumElts>
 <DAQChannel>
 <Name>counter</Name>
-<Val>Dev1/ctr0</Val>
+<Val>Dev1/ctr1</Val>
 </DAQChannel>
 <DAQChannel>
 <Name>方向端口</Name>
-<Val></Val>
+<Val>Dev1/port0/line0</Val>
 </DAQChannel>
 <Boolean>
 <Name>当前方向</Name>
@@ -617,7 +617,7 @@
 </Boolean>
 <DBL>
 <Name>频率</Name>
-<Val>20.00000000000000</Val>
+<Val>1500.00000000000000</Val>
 </DBL>
 <Refnum>
 <Name>DAQmx Task</Name>
@@ -659,7 +659,7 @@
 <Name>停止判断条件1</Name>
 <NumElts>5</NumElts>
 <I32>
-<Name>角度传感器序号</Name>
+<Name>传感器序号</Name>
 <Val>6</Val>
 </I32>
 <EW>
@@ -677,7 +677,7 @@
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>停止角度误差范围</Name>
+<Name>停止误差范围</Name>
 <Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
@@ -712,7 +712,7 @@
 <Name>停止判断条件1</Name>
 <NumElts>5</NumElts>
 <I32>
-<Name>角度传感器序号</Name>
+<Name>传感器序号</Name>
 <Val>6</Val>
 </I32>
 <EW>
@@ -730,7 +730,7 @@
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>停止角度误差范围</Name>
+<Name>停止误差范围</Name>
 <Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
@@ -765,7 +765,7 @@
 <Name>停止判断条件1</Name>
 <NumElts>5</NumElts>
 <I32>
-<Name>角度传感器序号</Name>
+<Name>传感器序号</Name>
 <Val>6</Val>
 </I32>
 <EW>
@@ -783,7 +783,7 @@
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>停止角度误差范围</Name>
+<Name>停止误差范围</Name>
 <Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
@@ -818,7 +818,7 @@
 <Name>停止判断条件1</Name>
 <NumElts>5</NumElts>
 <I32>
-<Name>角度传感器序号</Name>
+<Name>传感器序号</Name>
 <Val>6</Val>
 </I32>
 <EW>
@@ -836,7 +836,7 @@
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>停止角度误差范围</Name>
+<Name>停止误差范围</Name>
 <Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
@@ -871,7 +871,7 @@
 <Name>停止判断条件1</Name>
 <NumElts>5</NumElts>
 <I32>
-<Name>角度传感器序号</Name>
+<Name>传感器序号</Name>
 <Val>6</Val>
 </I32>
 <EW>
@@ -889,7 +889,7 @@
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>停止角度误差范围</Name>
+<Name>停止误差范围</Name>
 <Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
@@ -924,7 +924,7 @@
 <Name>停止判断条件1</Name>
 <NumElts>5</NumElts>
 <I32>
-<Name>角度传感器序号</Name>
+<Name>传感器序号</Name>
 <Val>6</Val>
 </I32>
 <EW>
@@ -942,7 +942,7 @@
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>停止角度误差范围</Name>
+<Name>停止误差范围</Name>
 <Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
@@ -977,8 +977,8 @@
 <Name>停止判断条件1</Name>
 <NumElts>5</NumElts>
 <I32>
-<Name>角度传感器序号</Name>
-<Val>1</Val>
+<Name>传感器序号</Name>
+<Val>6</Val>
 </I32>
 <EW>
 <Name>正转/反转</Name>
@@ -995,7 +995,7 @@
 <Val>0.00000000000000</Val>
 </DBL>
 <DBL>
-<Name>停止角度误差范围</Name>
+<Name>停止误差范围</Name>
 <Val>0.10000000000000</Val>
 </DBL>
 </Cluster>

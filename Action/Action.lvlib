@@ -39,6 +39,7 @@
 		<Item Name="PLC控制指令.ctl" Type="VI" URL="../PLC控制/PLC控制指令.ctl"/>
 		<Item Name="PLC控制读取.vi" Type="VI" URL="../PLC控制/PLC控制读取.vi"/>
 		<Item Name="PLC设备关闭.vi" Type="VI" URL="../PLC控制/PLC设备关闭.vi"/>
+		<Item Name="PLC指令转换.vi" Type="VI" URL="../PLC控制/PLC指令转换.vi"/>
 	</Item>
 	<Item Name="Action Message Loop.vi" Type="VI" URL="../Action Message Loop.vi"/>
 	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
