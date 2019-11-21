@@ -85,7 +85,7 @@
 <NumElts>4</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\yexin\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>D:\quanzidongtiaofatai20191119\quanzidongtiaofatai\data\2019_11_19_21_20_20对中.txt</Val>
 </Path>
 <Array>
 <Name>电压传感器转换率</Name>
@@ -145,7 +145,7 @@
 </Array>
 <Boolean>
 <Name>测试模式是否需要保存数据？</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -849,7 +849,7 @@
 <NumElts>4</NumElts>
 <I32>
 <Name>传感器序号</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I32>
 <EW>
 <Name>条件</Name>
@@ -860,7 +860,7 @@
 </EW>
 <DBL>
 <Name>值</Name>
-<Val>7.00000000000000</Val>
+<Val>5.00000000000000</Val>
 </DBL>
 <I32>
 <Name>条件判断时间间隔</Name>
@@ -886,7 +886,7 @@
 </I32>
 <DBL>
 <Name>停止角度</Name>
-<Val>0.00000000000000</Val>
+<Val>0.18000000000000</Val>
 </DBL>
 <DBL>
 <Name>停止误差范围</Name>
@@ -902,7 +902,7 @@
 <NumElts>4</NumElts>
 <I32>
 <Name>传感器序号</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I32>
 <EW>
 <Name>条件</Name>
@@ -913,7 +913,7 @@
 </EW>
 <DBL>
 <Name>值</Name>
-<Val>7.00000000000000</Val>
+<Val>9.00000000000000</Val>
 </DBL>
 <I32>
 <Name>条件判断时间间隔</Name>
@@ -955,7 +955,7 @@
 <NumElts>4</NumElts>
 <I32>
 <Name>传感器序号</Name>
-<Val>1</Val>
+<Val>0</Val>
 </I32>
 <EW>
 <Name>条件</Name>
@@ -966,7 +966,7 @@
 </EW>
 <DBL>
 <Name>值</Name>
-<Val>10.00000000000000</Val>
+<Val>2.00000000000000</Val>
 </DBL>
 <I32>
 <Name>条件判断时间间隔</Name>
