@@ -55,6 +55,7 @@
 		<Item Name="Settings.lvlib" Type="Library" URL="../Settings/Settings.lvlib"/>
 		<Item Name="PLC.lvlib" Type="Library" URL="../PLC/PLC.lvlib"/>
 		<Item Name="Action.lvlib" Type="Library" URL="../Action/Action.lvlib"/>
+		<Item Name="TaskMan.lvlib" Type="Library" URL="../TaskMan/TaskMan.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="方向机测试台.vi" Type="VI" URL="../方向机测试台.vi"/>
