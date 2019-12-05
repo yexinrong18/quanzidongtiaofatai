@@ -3,7 +3,7 @@
 <Version>15.0.1</Version>
 <Cluster>
 <Name>Settings in</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>2</NumElts>
@@ -1001,6 +1001,74 @@
 </Cluster>
 </Cluster>
 </Cluster>
+</Cluster>
+<Cluster>
+<Name>所有测试项目任务</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>全自动调阀任务列表</Name>
+<Dimsize>5</Dimsize>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>等待开始按钮</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>夹紧/松阀总</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>夹紧/松阀芯</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>电机使能</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>内泄漏开始</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
 </Cluster>
 </Cluster>
 </LVData>
