@@ -145,7 +145,7 @@
 </Array>
 <Boolean>
 <Name>测试模式是否需要保存数据？</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -163,7 +163,6 @@
 <RefKind>ActiveX</RefKind>
 <ActiveXType>
 <GUID>{F4A6601A-130D-4FEE-B4CD-7FACAE1011C6}</GUID>
-<Name>ActUtlTypeLib.IActUtlType</Name>
 </ActiveXType>
 <Val>0x00000000</Val>
 </Refnum>
@@ -419,7 +418,7 @@
 <NumElts>4</NumElts>
 <U32>
 <Name>变量类型</Name>
-<Val>0</Val>
+<Val>2</Val>
 </U32>
 <I32>
 <Name>PLC地址</Name>
@@ -439,7 +438,7 @@
 <NumElts>4</NumElts>
 <U32>
 <Name>变量类型</Name>
-<Val>0</Val>
+<Val>2</Val>
 </U32>
 <I32>
 <Name>PLC地址</Name>
@@ -602,7 +601,7 @@
 </Cluster>
 <Cluster>
 <Name>电机设置</Name>
-<NumElts>5</NumElts>
+<NumElts>6</NumElts>
 <DAQChannel>
 <Name>counter</Name>
 <Val>Dev1/ctr1</Val>
@@ -625,6 +624,10 @@
 <RefType>NIDAQ</RefType>
 <Val></Val>
 </Refnum>
+<I32>
+<Name>一圈脉冲数</Name>
+<Val>1000</Val>
+</I32>
 </Cluster>
 <Cluster>
 <Name>所有测试电机转动逻辑</Name>
@@ -825,7 +828,7 @@
 <Name>正转/反转</Name>
 <Choice>正转</Choice>
 <Choice>反转</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <I32>
 <Name>反转次数</Name>
@@ -1007,7 +1010,7 @@
 <NumElts>1</NumElts>
 <Array>
 <Name>全自动调阀任务列表</Name>
-<Dimsize>5</Dimsize>
+<Dimsize>10</Dimsize>
 <Cluster>
 <Name>Task Settings</Name>
 <NumElts>2</NumElts>
@@ -1025,7 +1028,7 @@
 <NumElts>2</NumElts>
 <String>
 <Name>任务指令</Name>
-<Val>夹紧/松阀总</Val>
+<Val>自动调阀测试 夹紧阀总</Val>
 </String>
 <DBL>
 <Name>等待时间</Name>
@@ -1037,7 +1040,7 @@
 <NumElts>2</NumElts>
 <String>
 <Name>任务指令</Name>
-<Val>夹紧/松阀芯</Val>
+<Val>自动调阀测试 夹紧阀芯</Val>
 </String>
 <DBL>
 <Name>等待时间</Name>
@@ -1049,7 +1052,7 @@
 <NumElts>2</NumElts>
 <String>
 <Name>任务指令</Name>
-<Val>电机使能</Val>
+<Val>自动调阀测试 电机使能</Val>
 </String>
 <DBL>
 <Name>等待时间</Name>
@@ -1061,7 +1064,67 @@
 <NumElts>2</NumElts>
 <String>
 <Name>任务指令</Name>
-<Val>内泄漏开始</Val>
+<Val>自动调阀测试 内泄漏开始</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>自动调阀测试 自动分中</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>自动调阀测试 方向机供油</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>自动调阀测试 扭杆紧</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>自动调阀测试 卡盘紧</Val>
+</String>
+<DBL>
+<Name>等待时间</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Task Settings</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>任务指令</Name>
+<Val>自动调阀测试 自动对中</Val>
 </String>
 <DBL>
 <Name>等待时间</Name>
