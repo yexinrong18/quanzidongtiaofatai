@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>15.0.1</Version>
+<Version>15.0</Version>
 <Cluster>
 <Name>Settings in</Name>
 <NumElts>4</NumElts>
@@ -163,6 +163,7 @@
 <RefKind>ActiveX</RefKind>
 <ActiveXType>
 <GUID>{F4A6601A-130D-4FEE-B4CD-7FACAE1011C6}</GUID>
+<Name>ActUtlTypeLib.IActUtlType</Name>
 </ActiveXType>
 <Val>0x00000000</Val>
 </Refnum>
@@ -502,7 +503,7 @@
 </U32>
 <I32>
 <Name>PLCµÿ÷∑</Name>
-<Val>260</Val>
+<Val>255</Val>
 </I32>
 <I32>
 <Name>size</Name>
@@ -522,7 +523,7 @@
 </U32>
 <I32>
 <Name>PLCµÿ÷∑</Name>
-<Val>261</Val>
+<Val>255</Val>
 </I32>
 <I32>
 <Name>size</Name>
